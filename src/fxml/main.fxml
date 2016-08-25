@@ -34,7 +34,7 @@
             <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
          </padding>
          <children>
-            <TableView fixedCellSize="0.0" layoutX="14.0" layoutY="14.0" prefHeight="666.0" prefWidth="303.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="8.0">
+            <TableView fixedCellSize="0.0" layoutX="14.0" layoutY="14.0" prefHeight="666.0" prefWidth="303.0" styleClass="glass-grey" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="8.0">
               <columns>
                 <TableColumn prefWidth="75.0" text="CONTACTS" />
                 <TableColumn prefWidth="75.0" text="STATUS" />
@@ -53,7 +53,7 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
-                              <TextArea prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0" />
+                              <TextArea prefHeight="200.0" prefWidth="200.0" styleClass="background" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0" />
                            </children>
                         </AnchorPane>
                   </content>
@@ -73,9 +73,9 @@
       </AnchorPane>
       <AnchorPane layoutX="329.0" layoutY="612.0" prefHeight="108.0" prefWidth="952.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="329.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <TextField layoutX="16.0" layoutY="15.0" prefHeight="75.0" prefWidth="823.0" styleClass="glass-grey-text" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="112.0" />
-            <Button layoutX="860.0" layoutY="59.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="glass-grey" text="Отправить" AnchorPane.bottomAnchor="24.0" AnchorPane.rightAnchor="14.0" />
-            <Button layoutX="859.0" layoutY="23.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="glass-grey" text="Файл" AnchorPane.bottomAnchor="60.0" AnchorPane.rightAnchor="15.0" />
+            <TextField layoutX="16.0" layoutY="15.0" prefHeight="75.0" prefWidth="810.0" styleClass="background" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="125.0" />
+            <Button layoutX="860.0" layoutY="59.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="94.0" styleClass="glass-grey" text="Отправить" AnchorPane.bottomAnchor="24.0" AnchorPane.rightAnchor="14.0" />
+            <Button layoutX="859.0" layoutY="23.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="94.0" styleClass="glass-grey" text="Файл" AnchorPane.bottomAnchor="60.0" AnchorPane.rightAnchor="15.0" />
          </children>
          <padding>
             <Insets top="16.0" />
